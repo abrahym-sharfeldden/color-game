@@ -51,7 +51,7 @@ button:hover{
 .container{
 	max-width: 600px;
 	margin: 0 auto;
-	padding-top: 3%;
+	padding-top: 10%;
 }
 .square{
 	width: 30%;
@@ -67,4 +67,26 @@ button:hover{
 .selected{
 	color: white;
 	background: #164ba0;
+}
+
+@media only screen and (max-width: 600px){
+	h1 {
+		padding: 10px 0;
+		font-size: 1em;
+	}
+
+	h1 > span.color-display {
+		font-size: 2em;
+	}
+
+	.bar {
+		height: 20px;
+		font-size: 0.55em;
+	}
+	.container {
+		width: 80%;
+	}
+	.square {
+	}
+
 }
