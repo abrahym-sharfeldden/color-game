@@ -7,7 +7,7 @@ var btnReset 		= document.querySelector(".btn-reset");
 var btnMode 		= document.querySelectorAll(".btn-mode");
 
 // variables
-var numOfSquares 	= 9;
+var numOfSquares = 6;
 var colors, pickedColor;
 init()
 
